@@ -5,10 +5,10 @@ import {
   saveBookmarks,
   removeBookmarks,
 } from './recipesService';
-import json from './v2.json';
+//import json from './v2.json';
 
 const initialState = {
-  recipes: json.hits,
+  recipes: [],
   bookmarks: null,
   count: 0,
   status: 'idle',

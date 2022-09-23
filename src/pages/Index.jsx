@@ -12,9 +12,7 @@ function Index() {
   const { recipes } = useSelector((state) => state.recipes);
 
   useEffect(() => {
-    if (process.env.NODE_ENV !== 'development') {
       dispatch(getRecipes());
-    }
   }, []);
 
   const [lastDirection, setLastDirection] = useState();
@@ -53,8 +51,8 @@ function Index() {
                 <h2 className="card__item-title">{recipe.recipe.label}</h2>
                 <img
                   className="card__item-img"
-                  src="https://loremflickr.com/300/300/foodplate"
-                  alt="food"
+                  src={recipe.recipe.image}
+                  alt={recipe.recipe.label}
                 />
                 <div className="card__item-desc">
                   <div className="desc__item">
