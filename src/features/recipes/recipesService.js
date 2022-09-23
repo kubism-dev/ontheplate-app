@@ -1,5 +1,5 @@
 export const fetchRecipes = async () => {
-  const url = `https://api.edamam.com/api/recipes/v2?type=public&q="*"&app_id=${process.env.REACT_APP_ID}&app_key=${process.env.REACT_APP_SECRET}&imageSize=REGULAR`;
+  const url = `https://api.edamam.com/api/recipes/v2?type=public&q="*"&app_id=${process.env.REACT_APP_ID}&app_key=${process.env.REACT_APP_SECRET}&imageSize=REGULAR&random=true`;
   const response = await fetch(url);
   return response.json();
 };
