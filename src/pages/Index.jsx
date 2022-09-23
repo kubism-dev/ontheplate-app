@@ -23,6 +23,7 @@ function Index() {
     if (direction === 'right') {
       dispatch(setBookmarks(nameToDelete));
       dispatch(getBookmarks());
+
     }
     setLastDirection(direction);
   };
