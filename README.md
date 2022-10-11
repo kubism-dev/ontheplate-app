@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <!-- ABOUT THE PROJECT -->
-## What's on the place
+## What's on the plate
 
 https://ontheplate-app-xj9u.vercel.app/
 
