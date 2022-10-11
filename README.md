@@ -1,10 +1,10 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 
 <!-- ABOUT THE PROJECT -->
 ## What's on the place
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+https://ontheplate-app-xj9u.vercel.app/
+[![On The Plate]](https://i.imgur.com/YO5HsJO.png)
 
 We often think about what we can actually eat when we get home from work. Most of the time we can't think of anything, so I thought it would be a good idea to get inspired by recipes and combine that with practicing React :)
 
@@ -18,7 +18,7 @@ Code & layout by me.
 
 ### Built With
 
-* [![React][React.js]][React-url]
+[![React][React.js]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
