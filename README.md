@@ -4,6 +4,7 @@
 ## What's on the place
 
 https://ontheplate-app-xj9u.vercel.app/
+
 [![On The Plate]](https://i.imgur.com/YO5HsJO.png)
 
 We often think about what we can actually eat when we get home from work. Most of the time we can't think of anything, so I thought it would be a good idea to get inspired by recipes and combine that with practicing React :)
@@ -24,25 +25,6 @@ Code & layout by me.
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -53,15 +35,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Clean up code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
