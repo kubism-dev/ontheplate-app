@@ -10,7 +10,6 @@ function Bookmarks() {
 	const dispatch = useDispatch();
 	const { bookmarks, count } = useSelector((state) => state.recipes);
 	const [isVisible, setIsVisible] = useState(false);
-	console.log(bookmarks);
 
 	useEffect(() => {
 		dispatch(getBookmarks());

@@ -75,8 +75,12 @@ html {
 	font-weight: 400;
 	font-size: 100%;
 	line-height: 120%;
-
-	background-color: var(--color-main);
+	background: rgb(48, 48, 48);
+	background: radial-gradient(
+		circle,
+		rgba(48, 48, 48, 1) 0%,
+		rgba(0, 0, 0, 1) 85%
+	);
 	color: #fff;
 
 	-webkit-font-smoothing: antialiased;
@@ -164,7 +168,6 @@ body {
 	min-height: 100vh;
 	max-width: 100vw;
 	overflow: hidden;
-	background: #101010;
 	padding: 0;
 }
 
