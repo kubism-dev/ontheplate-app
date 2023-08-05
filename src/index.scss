@@ -79,7 +79,7 @@ html {
 	background: radial-gradient(
 		circle,
 		rgba(48, 48, 48, 1) 0%,
-		rgba(0, 0, 0, 1) 85%
+		rgba(16, 16, 16, 1) 85%
 	);
 	color: #fff;
 
@@ -105,9 +105,11 @@ body {
 .header {
 	padding-bottom: 1.75rem;
 	a {
+		transition: color 0.35s ease-in-out;
 		color: #fff;
 		&:hover {
 			color: var(--color-secondary);
+			transition: color 0.35s ease-in-out;
 		}
 	}
 	&__title {
@@ -551,9 +553,11 @@ button {
 				color: #000;
 				max-width: 90%;
 				text-decoration: none;
+				transition: color 0.35s ease-in-out;
 				&:hover {
-					color: #666;
-					text-decoration: underline;
+					color: #d57403;
+					text-decoration: none;
+					transition: color 0.35s ease-in-out;
 				}
 			}
 			div {
@@ -594,7 +598,10 @@ button {
 		color: #fff;
 		text-decoration: none;
 		text-align: center;
-
+		transition: color 0.35s ease-in-out;
+		&:hover {
+			color: var(--color-secondary);
+		}
 		strong {
 			font-weight: 800;
 		}
