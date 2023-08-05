@@ -10,7 +10,7 @@ function SwipeNav() {
 				<Left
 					theme="filled"
 					size="20"
-					fill="#000"
+					fill="#fff"
 				/>
 			</div>
 			<div className="o-line o-line--extended"></div>
@@ -18,7 +18,7 @@ function SwipeNav() {
 				<Right
 					theme="filled"
 					size="20"
-					fill="#000"
+					fill="#fff"
 				/>
 				<span>
 					Swipe right to <span>like</span>

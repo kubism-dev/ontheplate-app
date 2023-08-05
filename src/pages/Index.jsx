@@ -7,10 +7,12 @@ import {
 	getBookmarks,
 } from '../features/recipes/recipesSlice';
 import SwipeNav from '../components/SwipeNav';
+import Image from '../cuisine-placeholder.jpg';
 
 function Index() {
 	const dispatch = useDispatch();
 	const { recipes } = useSelector((state) => state.recipes);
+	console.log(recipes);
 
 	useEffect(() => {
 		dispatch(getRecipes());
@@ -34,6 +36,31 @@ function Index() {
 		<>
 			<div className="main-wrap">
 				<div className="card">
+					{recipes.length === 0 && (
+						<div className="card__item">
+							<div className=""></div>
+							<h2 className="card__item-title">Swipe Cuisine</h2>
+							<img
+								className="card__item-img"
+								src={Image}
+								alt="Swipe Cuisine"
+							/>
+							<div className="card__item-desc">
+								<div className="desc__item">
+									<h3>Servings</h3>
+									<span>for many</span>
+								</div>
+								<div className="desc__item">
+									<h3>Meal Type</h3>
+									<span>Snack</span>
+								</div>
+								<div className="desc__item">
+									<h3>Time needed</h3>
+									<span>Quick</span>
+								</div>
+							</div>
+						</div>
+					)}
 					{recipes.map((recipe) => (
 						<TinderCard
 							className="swipe"

@@ -194,7 +194,7 @@ body {
 		max-width: 80vw;
 	}
 	.i-icon {
-		background: #fff;
+		background: var(--color-secondary);
 		width: 0.55rem;
 		height: 0.55rem;
 		border-radius: 100%;
@@ -489,9 +489,9 @@ button {
 
 	@media screen and (max-width: 876px) {
 		&.is-visible {
-			max-width: calc(100% - 5rem);
+			max-width: calc(100% - 3rem);
 			right: -10px;
-			padding: 3rem 2rem 2rem 2rem;
+			padding: 3rem 0.2rem 2rem 2rem;
 		}
 	}
 
