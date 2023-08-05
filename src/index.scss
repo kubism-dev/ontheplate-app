@@ -100,7 +100,12 @@ body {
 /* Header */
 .header {
 	padding-bottom: 1.75rem;
-
+	a {
+		color: #fff;
+		&:hover {
+			color: var(--color-secondary);
+		}
+	}
 	&__title {
 		font-family: 'Satoshi', sans-serif;
 		font-size: 3rem;
@@ -185,6 +190,7 @@ body {
 .swipe {
 	position: absolute;
 }
+
 .swipe-nav {
 	display: flex;
 	justify-content: center;
@@ -568,7 +574,14 @@ button {
 	width: 100%;
 	text-align: center;
 	padding: 6rem 0 3rem 0;
-
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		li {
+			margin-bottom: 0.5rem;
+		}
+	}
 	a {
 		text-transform: uppercase;
 		font-weight: 400;
