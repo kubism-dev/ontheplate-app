@@ -527,10 +527,19 @@ button {
 			margin-bottom: 0.5rem;
 			display: flex;
 			justify-content: space-between;
-
+			position: relative;
+			img {
+				position: absolute;
+				left: -3rem;
+				top: 0;
+				width: 2rem;
+				height: 2rem;
+				border-radius: 50%;
+				border: 2px solid rgb(213, 213, 213);
+			}
 			a {
 				color: #000;
-				max-width: 250px;
+				max-width: 90%;
 				text-decoration: none;
 				&:hover {
 					color: #666;

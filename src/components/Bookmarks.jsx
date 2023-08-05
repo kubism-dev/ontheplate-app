@@ -49,6 +49,10 @@ function Bookmarks() {
 								class="bookmarks__list-item"
 								key={index}
 							>
+								<img
+									src={bookmark.image}
+									alt={bookmark.name}
+								/>
 								<a
 									href={bookmark.link}
 									target="_blank"
