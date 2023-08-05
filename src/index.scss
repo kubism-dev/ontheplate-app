@@ -3,6 +3,25 @@
 	--color-secondary: #fa8700;
 }
 
+* {
+	scrollbar-width: thin;
+	scrollbar-color: var(--color-secondary) transparent;
+}
+
+*::-webkit-scrollbar {
+	width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--color-secondary);
+	border-radius: 10px;
+	border: 3px solid transparent;
+}
+
 @font-face {
 	font-family: 'Satoshi';
 	src: url('/fonts/Satoshi-Bold.woff2') format('woff2'),
@@ -84,11 +103,11 @@ body {
 
 	&__title {
 		font-family: 'Satoshi', sans-serif;
-		font-size: 3.5rem;
+		font-size: 3rem;
 		font-weight: 800;
-		line-height: 100%;
+		line-height: 120%;
 		color: #fff;
-		max-width: 20rem;
+		max-width: 7ch;
 		margin: 0 auto;
 		text-align: center;
 
@@ -454,17 +473,17 @@ button {
 	border-radius: 24px;
 	background: rgb(213, 213, 213);
 	width: 100%;
-	max-width: 320px;
+	max-width: 350px;
 	position: fixed;
 	border: 3px solid var(--color-main);
 	top: 4rem;
 	right: -700px;
-	padding: 3rem 7rem 2rem 2rem;
+	padding: 3rem 0.2rem 2rem 2rem;
 	z-index: 3;
 	transition: right 0.35s ease;
 
 	&.is-visible {
-		right: -5rem;
+		right: -1rem;
 		transition: right 0.35s ease;
 	}
 
@@ -490,8 +509,8 @@ button {
 	&__list {
 		list-style: none;
 		text-align: left;
-		padding: 1rem 0 0 0;
-		margin: 0;
+		padding: 0 1rem 0 0;
+		margin: 1rem 1rem 0 0;
 		max-height: 400px;
 		overflow-y: auto;
 		overflow-x: hidden;
@@ -500,8 +519,8 @@ button {
 			border-bottom: 1px solid #a7a7a7;
 			padding: 0.5rem 0 0.5rem 0;
 			font-family: 'Erode', serif;
-			font-size: 1.35rem;
-			line-height: 90%;
+			font-size: 1.2rem;
+			line-height: 100%;
 			letter-spacing: -0.03em;
 			font-weight: 500;
 			color: var(--color-main);
@@ -509,8 +528,14 @@ button {
 			display: flex;
 			justify-content: space-between;
 
-			span {
+			a {
+				color: #000;
 				max-width: 250px;
+				text-decoration: none;
+				&:hover {
+					color: #666;
+					text-decoration: underline;
+				}
 			}
 
 			div > * {

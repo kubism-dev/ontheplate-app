@@ -49,18 +49,14 @@ function Bookmarks() {
 								class="bookmarks__list-item"
 								key={index}
 							>
-								<span>{bookmark.name}</span>
+								<a
+									href={bookmark.link}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									{bookmark.name}
+								</a>
 								<div>
-									<a
-										href={bookmark.link}
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										<Share
-											size={'.75em'}
-											fill="#101010"
-										/>
-									</a>
 									<button onClick={() => onDelete(bookmark.name)}>
 										<Delete
 											size={'1.3em'}
