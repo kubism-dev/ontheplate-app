@@ -533,7 +533,7 @@ button {
 			color: var(--color-main);
 			margin-bottom: 0.5rem;
 			display: flex;
-			justify-content: space-between;
+			justify-content: start;
 			position: relative;
 			img {
 				border: 2px solid #d5d5d5;
@@ -553,7 +553,9 @@ button {
 					text-decoration: underline;
 				}
 			}
-
+			div {
+				margin-left: auto;
+			}
 			div > * {
 				svg path {
 					transition: all 0.35s ease;
