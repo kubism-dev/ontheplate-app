@@ -305,9 +305,9 @@ body {
 
 		&-title {
 			font-family: 'Erode', serif;
-			font-size: 2.5rem;
+			font-size: 2.1rem;
 			font-weight: 500;
-			line-height: 115%;
+			line-height: 105%;
 			text-align: center;
 			margin: 0 auto;
 			letter-spacing: -0.04em;
@@ -322,7 +322,7 @@ body {
 			text-overflow: ellipsis;
 
 			@media screen and (max-width: 876px) {
-				font-size: 2.25rem;
+				font-size: 1.95rem;
 			}
 		}
 
@@ -485,7 +485,7 @@ button {
 	border: 3px solid var(--color-main);
 	top: 4rem;
 	right: -700px;
-	padding: 3rem 0.2rem 2rem 2rem;
+	padding: 3rem 0.2rem 2rem 1rem;
 	z-index: 3;
 	transition: right 0.35s ease;
 
@@ -536,13 +536,13 @@ button {
 			justify-content: space-between;
 			position: relative;
 			img {
-				position: absolute;
-				left: -3rem;
-				top: 0;
-				width: 2rem;
-				height: 2rem;
+				border: 2px solid #d5d5d5;
 				border-radius: 50%;
-				border: 2px solid rgb(213, 213, 213);
+				height: 2rem;
+				margin-right: 1rem;
+				width: 2rem;
+				z-index: 9999999;
+				float: left;
 			}
 			a {
 				color: #000;

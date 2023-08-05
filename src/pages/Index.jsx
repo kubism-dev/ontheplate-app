@@ -91,10 +91,12 @@ function Index() {
 										<h3>Meal Type</h3>
 										<span>{recipe.recipe.mealType}</span>
 									</div>
-									<div className="desc__item">
-										<h3>Time needed</h3>
-										<span>{recipe.recipe.totalTime} min.</span>
-									</div>
+									{recipe.recipe.totalTime > 0 && (
+										<div className="desc__item">
+											<h3>Time needed</h3>
+											<span>{recipe.recipe.totalTime} min.</span>
+										</div>
+									)}
 								</div>
 							</div>
 						</TinderCard>
