@@ -12,7 +12,6 @@ import Image from '../cuisine-placeholder.jpg';
 function Index() {
 	const dispatch = useDispatch();
 	const { recipes } = useSelector((state) => state.recipes);
-	console.log(recipes);
 
 	useEffect(() => {
 		dispatch(getRecipes());
@@ -103,11 +102,11 @@ function Index() {
 					))}
 				</div>
 			</div>
-			{lastDirection === 'right' ? (
+			{/* {lastDirection === 'right' ? (
 				<h2 className="infoText"> Added to Recipes</h2>
 			) : (
 				''
-			)}
+			)} */}
 			<SwipeNav />
 		</>
 	);
