@@ -6,6 +6,7 @@ import {
 	setBookmarks,
 	getBookmarks,
 } from '../features/recipes/recipesSlice';
+import SwipeNav from '../components/SwipeNav';
 
 function Index() {
 	const dispatch = useDispatch();
@@ -78,6 +79,7 @@ function Index() {
 			) : (
 				''
 			)}
+			<SwipeNav />
 		</>
 	);
 }
