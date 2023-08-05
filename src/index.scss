@@ -190,6 +190,7 @@ body {
 	justify-content: center;
 	margin: 0 auto;
 	max-width: 350px;
+	padding-top: 4rem;
 	@media screen and (max-width: 876px) {
 		max-width: 80vw;
 	}
@@ -300,7 +301,7 @@ body {
 			font-family: 'Erode', serif;
 			font-size: 2.5rem;
 			font-weight: 500;
-			line-height: 90%;
+			line-height: 115%;
 			text-align: center;
 			margin: 0 auto;
 			letter-spacing: -0.04em;
@@ -309,7 +310,7 @@ body {
 			max-width: 80%;
 
 			display: -webkit-box;
-			-webkit-line-clamp: 2;
+			-webkit-line-clamp: 3;
 			-webkit-box-orient: vertical;
 			overflow: hidden;
 			text-overflow: ellipsis;
